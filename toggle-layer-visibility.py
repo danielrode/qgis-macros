@@ -25,7 +25,8 @@ def openProject():
     # QKeySequence(Qt.ControlModifier + Qt.ShiftModifier + Qt.Key_1)
     bind_layertag_map = (
         (Qt.Key_F1, '<f1>'),
-        (Qt.Key_F2, '<f2>'),
+        (Qt.Key_F1 + Qt.ShiftModifier, '<s-f1>'),
+        # (Qt.Key_F2, '<f2>'),
         (Qt.Key_F2 + Qt.ShiftModifier, '<s-f2>'),
         (Qt.Key_F3, '<f3>'),
         (Qt.Key_F3 + Qt.ShiftModifier, '<s-f3>'),
